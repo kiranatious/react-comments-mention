@@ -41,7 +41,6 @@ const AdvancedInput = ({
 }: AdvancedInputProps) => {
   const [html, setHtml] = useState('<p></p>')
   const globalStore: any = useContext(GlobalContext)
-  console.log("Advanced",globalStore.mentionSuggestions)
   useEffect(() => {
     if (text != '') {
       setHtml(text)

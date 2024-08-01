@@ -35,7 +35,6 @@ const CommentSection = ({
     )
   }
   const globalStore: any = useContext(GlobalContext)
-  console.log("globalStore", globalStore)
   const totalComments = () => {
     let count = 0
     globalStore.data.map((i: any) => {

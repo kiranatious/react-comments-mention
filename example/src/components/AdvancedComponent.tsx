@@ -97,10 +97,10 @@ const AdvancedComponent = () => {
         }}
         advancedInput={true}
         replyInputStyle={{ borderBottom: '1px solid black', color: 'black' }}
-        // mentionSuggestions={users.map((user) => ({
-        //   id: user.id,
-        //   display: user.full_name || user.user_name,
-        // }))}
+        mentionSuggestions={users.map((user) => ({
+          id: user.id,
+          display: user.full_name || user.user_name,
+        }))}
       />
     </div>
   )
