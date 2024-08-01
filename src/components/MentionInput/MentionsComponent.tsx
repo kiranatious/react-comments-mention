@@ -16,7 +16,7 @@ const MentionsComponent: React.FC<MentionsComponentProps> = ({
   onChange,
   mode,
   inputStyle,
-  placeholder = "Type a comment or use '@' to mention users",
+  placeholder = "Type your reply here",
 }) => {
   const globalStore: any = useContext(GlobalContext)
   return (

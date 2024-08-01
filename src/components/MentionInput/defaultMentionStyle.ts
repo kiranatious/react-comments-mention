@@ -13,7 +13,8 @@ export const defaultMentionInputsStyle = {
   "&multiLine": {
     control: {
       fontFamily: "monospace",
-      minHeight: 60,
+      minHeight: 40,
+      height: "auto"
     },
     highlighter: {
       padding: 9,
