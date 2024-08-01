@@ -1,0 +1,43 @@
+[
+    {
+      "email": "demouser@dse.com",
+      "full_name": "John Deo",
+      "id": "6da41366-c999-4e84-afe6-2e05c1ee0568",
+      "roles": [],
+      "user_name": "john.deo",
+      "user_status_flag": 1
+    },
+    {
+      "email": "exampleuser@dse.com",
+      "full_name": "Jane Smith",
+      "id": "7cb3b3c1-a12d-4db1-b688-1e5e1f4e7891",
+      "roles": [],
+      "user_name": "jane.smith",
+      "user_status_flag": 1
+    },
+    {
+      "email": "testuser@dse.com",
+      "full_name": "Alice Johnson",
+      "id": "8bc65f47-e4b7-4bdf-9a32-8e5e59ef9a5f",
+      "roles": [],
+      "user_name": "alice.johnson",
+      "user_status_flag": 1
+    },
+    {
+      "email": "sampleuser@dse.com",
+      "full_name": "Bob Brown",
+      "id": "9da41567-d111-4f84-bae7-1c05c2cc5678",
+      "roles": [],
+      "user_name": "bob.brown",
+      "user_status_flag": 1
+    },
+    {
+      "email": "mockuser@dse.com",
+      "full_name": "Charlie Davis",
+      "id": "10f1d1f4-42a7-41b8-9c7e-2e5c4f6a7b8c",
+      "roles": [],
+      "user_name": "charlie.davis",
+      "user_status_flag": 1
+    }
+  ]
+  
