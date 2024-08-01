@@ -1,12 +1,12 @@
 {
-  "name": "@charlesmack34/react-comments-section",
+  "name": "react-comments-mentions",
   "version": "1.0.0",
   "description": "React component library for a functioning comments and user mentions",
   "author": "Akash Lakade",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charlesmack34/react-comments-section.git"
+    "url": "git+https://github.com/AkashLakade/react-comments-mentions.git"
   },
   "main": "dist/index.js",
   "style": "dist/styles.css",
