@@ -21,7 +21,7 @@ interface AdvancedInputProps {
   hideToolbar?: boolean
 }
 
-interface MentionSuggestion {
+export interface MentionSuggestion {
   id: string;
   display: string;
 }
@@ -181,7 +181,7 @@ const AdvancedInput = ({
                 suggestions: globalStore?.mentionSuggestions?.length > 0 ? globalStore.mentionSuggestions.map((suggestion: MentionSuggestion) => ({
                   text: suggestion.display,
                   value: suggestion.display,
-                  // url: suggestion.display 
+                  url: suggestion.id
                 })) : [],
               }}
             />

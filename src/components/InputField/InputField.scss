@@ -97,15 +97,41 @@
   width: 100%;
 }
 .advanced-form {
-  padding: 0px;
-  flex-direction: column;
+  padding: 0px 4px;
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
 }
 .rdw-editor-main {
   max-height: 200px;
-  overflow: scroll;
+  overflow: visible;
 }
+
+.rdw-suggestion-dropdown {
+  min-width: 120px;
+  overflow: scroll;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: auto;
+  max-height: 200px;
+  border: 1px solid #F1F1F1;
+  padding: 4px;
+  border-radius: 2px;
+  z-index: 100;
+  background: white;
+  box-shadow: 3px 3px 5px #BFBDBD;
+  bottom: auto !important;
+}
+
 .advanced-btns {
-  width: 100%;
+  width: fit-content;
   display: flex;
   margin: 6px 0px 0px 0px;
 }
@@ -113,6 +139,7 @@
   border: 1px solid #e8e8e8;
   padding: 10px;
   border-radius: 10px;
+  width: 100%;
   .advanced-border:focus-within {
     border: 1px solid #353535;
   }
@@ -128,6 +155,8 @@
   display: flex;
   margin: 10px 0px;
   width: 100%;
+  align-items: center;
+  flex-direction: row;
 }
 .advanced-input {
   margin-left: 6px;
