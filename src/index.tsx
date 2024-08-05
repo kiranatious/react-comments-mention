@@ -54,6 +54,7 @@ interface CommentSectionProps {
   }>
   mentionSuggestions?: Array<{ id: string; display: string }
   >
+  hideToolbar?: boolean
 }
 
 export const CommentSection = ({
@@ -80,7 +81,8 @@ export const CommentSection = ({
   customNoComment,
   currentData,
   advancedInput,
-  mentionSuggestions
+  mentionSuggestions,
+  hideToolbar
 }: CommentSectionProps) => {
   return (
     <GlobalProvider
@@ -103,6 +105,7 @@ export const CommentSection = ({
       removeEmoji={removeEmoji}
       advancedInput={advancedInput}
       mentionSuggestions={mentionSuggestions}
+      hideToolbar={hideToolbar}
     >
       <CommentSectionComponent
         overlayStyle={overlayStyle}

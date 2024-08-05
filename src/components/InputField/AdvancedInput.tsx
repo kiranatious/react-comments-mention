@@ -18,7 +18,6 @@ interface AdvancedInputProps {
   imgDiv?: object
   customImg?: string
   text: string
-  hideToolbar?: boolean
 }
 
 export interface MentionSuggestion {
@@ -37,7 +36,6 @@ const AdvancedInput = ({
   imgStyle,
   customImg,
   text,
-  hideToolbar = false,
 }: AdvancedInputProps) => {
   const [html, setHtml] = useState('<p></p>')
   const globalStore: any = useContext(GlobalContext)
@@ -174,7 +172,7 @@ const AdvancedInput = ({
                   options: ['unordered', 'ordered']
                 }
               }}
-              toolbarHidden={hideToolbar}
+              toolbarHidden={globalStore.hideToolbar}
               mention={{
                 separator: ' ',
                 trigger: '@',

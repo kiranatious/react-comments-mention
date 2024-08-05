@@ -101,6 +101,7 @@ const AdvancedComponent = () => {
           id: user.id,
           display: user.full_name || user.user_name,
         }))}
+        hideToolbar
       />
     </div>
   )

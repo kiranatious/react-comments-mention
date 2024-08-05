@@ -24,7 +24,8 @@ export const GlobalProvider = ({
   replyInputStyle,
   removeEmoji,
   advancedInput,
-  mentionSuggestions
+  mentionSuggestions,
+  hideToolbar
 }: {
   children: any
   currentUser?: {
@@ -68,6 +69,7 @@ export const GlobalProvider = ({
   currentData?: Function
   advancedInput?: boolean
   mentionSuggestions?: Array<{ id: string; display: string }>
+  hideToolbar?: boolean
 }) => {
   const [currentUserData] = useState(currentUser)
   const [data, setData] = useState<
@@ -247,7 +249,8 @@ export const GlobalProvider = ({
         replyInputStyle: replyInputStyle,
         removeEmoji: removeEmoji,
         advancedInput: advancedInput,
-        mentionSuggestions: mentionSuggestions
+        mentionSuggestions: mentionSuggestions,
+        hideToolbar: hideToolbar
       }}
     >
       {children}
