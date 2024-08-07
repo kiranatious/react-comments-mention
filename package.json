@@ -1,6 +1,6 @@
 {
   "name": "react-comments-mentions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component library for a functioning comments and user mentions",
   "author": "Akash Lakade",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "@types/draftjs-to-html": "^0.8.2",
     "@types/html-to-draftjs": "^1.4.1",
     "@types/jest": "^29.5.5",
-    "@types/node": "^20.6.3",
+    "@types/node": "^22.1.0",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "@types/react-draft-wysiwyg": "^1.13.4",
@@ -69,7 +69,7 @@
   ],
   "dependencies": {
     "@emotion/react": "^11.11.1",
-    "@szhsin/react-menu": "^4.0.3",
+    "@szhsin/react-menu": "^4.2.2",
     "@types/lodash": "^4.14.199",
     "@types/react-mentions": "^4.1.13",
     "@types/uuid": "^9.0.4",
